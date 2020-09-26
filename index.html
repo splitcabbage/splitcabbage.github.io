@@ -1,16 +1,6 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <style>
-      #gc {
-        background-image: url(./background.jpg);
-        background-size: 100%;
-        z-index: 20;
-        position: relative;
-        width: 90%;
-      }
-    </style>
-
     <link href="style.css" rel="stylesheet" />
   </head>
   <body>
@@ -34,7 +24,7 @@
             c = document.getElementById("gc");
             cc = c.getContext("2d");
             setInterval(update, 1000 / 60);
-            c.addEventListener("click", function (e) {
+            c.addEventListener("mousemove", function (e) {
               p1y = e.clientY - ph / 2;
             });
           };

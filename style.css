@@ -1,3 +1,11 @@
+#gc {
+  background-image: url(./background.jpg);
+  background-size: 100%;
+  z-index: 20;
+  position: relative;
+  width: 90%;
+}
+
 .row {
     display: flex;
     flex-wrap: wrap;
